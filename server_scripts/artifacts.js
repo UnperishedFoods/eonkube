@@ -738,7 +738,7 @@ ServerEvents.recipes((event) => {
       "BBB",
     ],
     {
-      A: "irons_spellboks:arcane_essence",
+      A: "irons_spellbooks:arcane_essence",
       B: "#forge:ingots/silver",
       C: "#forge:glass",
     },
