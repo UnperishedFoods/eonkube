@@ -599,7 +599,7 @@ ServerEvents.recipes((event) => {
     {
       A: "minecraft:iron_ingot",
       B: "minecraft:amethyst_shard",
-      C: "#forge_ingot/silver",
+      C: "#forge:ingots/silver",
     },
   )
   event.shaped(
