@@ -26,7 +26,6 @@ ServerEvents.recipes((event) => {
     Fluid.of('cyclic:xpjuice',1000)
   )
   event.recipes.create.crushing('thermal:sulfur_dust', 'thermal:sulfur')
-  event.recipes.create.mixing('pamhc2foodextended:maplesausageitem',[Fluid.of('thermal:syrup',250),'#forge:rawmeats','delightful:green_tea_leaf']).heated()
 })
 
 console.info('Misc loaded.')
