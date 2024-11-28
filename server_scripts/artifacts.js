@@ -631,12 +631,13 @@ ServerEvents.recipes((event) => {
     "relics:holy_locket",
     [
       "AAA",
-      "A A",
+      "ACA",
       " B ",
     ],
     {
       A: "minecraft:string",
       B: "minecraft:gold_block",
+      C: "minecraft:gold_nugget",
     },
   )
   event.shaped(
