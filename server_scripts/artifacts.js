@@ -625,7 +625,7 @@ ServerEvents.recipes((event) => {
     {
       A: "minecraft:ender_eye",
       B: "minecraft:leather",
-    }
+    },
   )
   event.shaped(
     "relics:holy_locket",
@@ -637,7 +637,7 @@ ServerEvents.recipes((event) => {
     {
       A: "minecraft:string",
       B: "minecraft:gold_block",
-    }
+    },
   )
   event.shaped(
     "relics:horse_flute",
@@ -649,21 +649,21 @@ ServerEvents.recipes((event) => {
     {
       A: "minecraft:leather",
       B: "#forge:ingots/bronze",
-      C: "minecraft:note_block"
-    }
+      C: "minecraft:note_block",
+    },
   )
   event.shaped(
     "relics:hunter_belt",
     [
-      "AAA",
-      "ABA",
-      " C ",
+      "   ",
+      "BAB",
+      "ACA",
     ],
     {
       A: "minecraft:leather",
       B: "minecraft:emerald",
-      C: "minecraft:iron_ingot"
-    }
+      C: "minecraft:iron_ingot",
+    },
   )
   event.shaped(
     "relics:ice_breaker",
@@ -676,7 +676,7 @@ ServerEvents.recipes((event) => {
       A: "minecraft:iron_ingot",
       B: "minecraft:leather",
       C: "minecraft:iron_bars"
-    }
+    },
   )
   event.shaped(
     "relics:ice_skates",
@@ -688,7 +688,213 @@ ServerEvents.recipes((event) => {
     {
       A: "minecraft:diamond",
       B: "minecraft:leather",
-      C: "create:iron_sheet"
-    }
+      C: "create:iron_sheet",
+    },
+  )
+  event.shaped(
+    "relics:infinity_ham",
+    [
+      "CAA",
+      "CAA",
+      "BCC",
+    ],
+    {
+      A: "minecraft:porkchop",
+      B: "minecraft:bone",
+      C: "#forge:salt",
+    },
+  )
+  event.shaped(
+    "relics:jellyfish_necklace",
+    [
+      "AAA",
+      "BCB",
+      " D ",
+    ],
+    {
+      A: "minecraft:string",
+      B: "minecraft:diamond",
+      C: "minecraft:slime_ball",
+      D: "#forge:raw_fishes",
+    },
+  )
+  event.shaped(
+    "relics:leather_belt",
+    [
+      "   ",
+      "AAA",
+      "ABA",
+    ],
+    {
+      A: "minecraft:leather",
+      B: "minecraft:gold_ingot",
+    },
+  )
+  event.shaped(
+    "relics:magic_mirror",
+    [
+      "ABA",
+      "BCB",
+      "BBB",
+    ],
+    {
+      A: "irons_spellboks:arcane_essence",
+      B: "#forge:ingots/silver",
+      C: "#forge:glass",
+    },
+  )
+  event.shaped(
+    "relics:magma_walker",
+    [
+      "AAA",
+      "CBC",
+      "AAA",
+    ],
+    {
+      A: "minecraft:magma_block",
+      B: "minecraft:netherite_boots",
+      C: "minecraft:magma_cream",
+    },
+  )
+  event.shaped(
+    "relics:midnight_robe",
+    [
+      "ABA",
+      "BCB",
+      "ABA",
+    ],
+    {
+      A: "minecraft:diamond",
+      B: "minecraft:black_wool",
+      C: "#forge:chestplates",
+    },
+  )
+  event.shaped(
+    "relics:rage_glove",
+    [
+      " A ",
+      "ABA",
+      "CAC",
+    ],
+    {
+      A: "minecraft:blaze_powder",
+      B: "create:iron_sheet",
+      C: "minecraft:magma_cream",
+    },
+  )
+  event.shaped(
+    "relics:reflection_necklace",
+    [
+      "AAA",
+      "BCB",
+      " D ",
+    ],
+    {
+      A: "minecraft:lapis_lazuli",
+      B: "minecraft:diamond",
+      C: "irons_spellbooks:arcane_essence",
+      D: "minecraft:obsidian",
+    },
+  )
+  event.shaped(
+    "relics:relic_experience_bottle",
+    [
+      " A ",
+      "ABA",
+      " A ",
+    ],
+    {
+      A: "minecraft:gold_nugget",
+      B: "minecraft:experience_bottle",
+    },
+  )
+  event.recipes.create.mixing(
+    "relics:relic_experience_bottle",
+    [
+      "4x minecraft:gold_nugget",
+      "minecraft:experience_bottle"
+    ]
+  )
+  event.shaped(
+    "relics:roller_skates",
+    [
+      "A A",
+      "B B",
+      "C C",
+    ],
+    {
+      A: "minecraft:red_wool",
+      B: "create:iron_sheet",
+      C: "extendedgears:shaftless_cogwheel",
+    },
+  )
+  event.shaped(
+    "relics:shadow_glaive",
+    [
+      "ABA",
+      "BCB",
+      "ABA",
+    ],
+    {
+      A: "irons_spellbooks:arcane_essence",
+      B: "minecraft:amethyst_shard",
+      C: "minecraft:obsidian",
+    },
+  )
+  event.shaped(
+    "relics:space_dissector",
+    [
+      "ABA",
+      "BCB",
+      "DED",
+    ],
+    {
+      A: "irons_spellbooks:arcane_essence",
+      B: "minecraft:gold_ingot",
+      C: "minecraft:crying_obsidian",
+      D: "minecraft:gold_nugget",
+      E: "minecraft:gold_block",
+    },
+  )
+  event.shaped(
+    "relics:spatial_sign",
+    [
+      "ABA",
+      "CDE",
+      "AAA",
+    ],
+    {
+      A: "minecraft:obsidian",
+      B: "minecraft:emerald_block",
+      C: "minecraft:gold_block",
+      D: "minecraft:crying_obsidian",
+      E: "minecraft:lapis_block",
+    },
+  )
+  event.shaped(
+    "relics:spore_sack",
+    [
+      "ABA",
+      "ABA",
+      "CAC",
+    ],
+    {
+      A: "minecraft:leather",
+      B: "#forge:seeds",
+      C: "minecraft:emerald",
+    },
+  )
+  event.shaped(
+    "relics:wool_mitten",
+    [
+      " AB",
+      "ACA",
+      "AC ",
+    ],
+    {
+      A: "#forge:wool",
+      B: "minecraft:snow_block",
+      C: "minecraft:leather",
+    },
   )
   });
