@@ -515,4 +515,116 @@ ServerEvents.recipes((event) => {
         B: "minecraft:pink_dye",
       },
     )
+      event.shaped(
+        "relics:amphibian_boot",
+        [
+          "A A",
+          "B B",
+          "   ",
+        ],
+        {
+          A: "minecraft:emerald",
+          B: "#forge:raw_fishes",
+        },
+    )
+    event.shaped(
+      "relics:aqua_walker",
+      [
+        "A A",
+        "B B",
+        "   ",
+      ]
+      {
+        A: "minecraft:pink_wool"
+        B: "minecraft:diamond"
+      }
+    )
+    event.shaped(
+      "relics:arrow_quiver",
+      [
+        "AB ",
+        "BB ",
+        "   ",
+      ]
+      {
+        A: "minecraft:arrow"
+        B: "minecraft:leather"
+      }
+    )
+  event.shaped(
+    "relics:bastion_ring",
+    [
+      " A ",
+      "B B",
+      " B ",
+    ]
+    {
+      A: "minecraft:gold_block"
+      B: "minecraft:blackstone"
+    }
+  )
+  event.shaped(
+    "relics:blazing_flask",
+    [
+      " A ",
+      "BCB",
+      " B ",
+    ]
+    {
+      A: "minecraft:blaze_powder"
+      B: "minecraft:obsidian"
+      C: "minecraft:glass_bottle"
+    }
+  )
+  event.shaped(
+    "relics:chorus_inhibitor",
+    [
+      " A ",
+      "BCB",
+      " B ",
+    ]
+    {
+      A: "minecraft:redstone_block"
+      B: "minecraft:chorus_fruit"
+      C: "minecraft:amethyst_shard"
+    }
+  )
+  event.shaped(
+    "relics:drowned_belt",
+    [
+      "   ",
+      "ABA",
+      " C ",
+    ]
+    {
+      A: "minecraft:iron_ingot"
+      B: "minecraft:amethyst_shard"
+      C: "#forge_ingot/silver"
+    }
+  )
+  event.shaped(
+    "relics:elytra_booster",
+    [
+      " A ",
+      "ABA",
+      "C C",
+    ]
+    {
+      A: "minecraft:iron_ingot"
+      B: "minecraft:gunpowder"
+      C: "minecraft:firework_rocket"
+    }
+  )
+  event.shaped(
+    "relics:enders_hand",
+    [
+      " A ",
+      "ABA",
+      " A ",
+    ]
+    {
+      A: "minecraft:ender_eye"
+      B: "minecraft:leather"
+    }
+  )
   });
