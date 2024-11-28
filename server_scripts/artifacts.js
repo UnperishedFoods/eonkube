@@ -627,4 +627,68 @@ ServerEvents.recipes((event) => {
       B: "minecraft:leather",
     }
   )
+  event.shaped(
+    "relics:holy_locket",
+    [
+      "AAA",
+      "A A",
+      " B ",
+    ],
+    {
+      A: "minecraft:string",
+      B: "minecraft:gold_block",
+    }
+  )
+  event.shaped(
+    "relics:horse_flute",
+    [
+      " AA",
+      "BBB",
+      "  C",
+    ],
+    {
+      A: "minecraft:leather",
+      B: "#forge:ingots/bronze",
+      C: "minecraft:note_block"
+    }
+  )
+  event.shaped(
+    "relics:hunter_belt",
+    [
+      "AAA",
+      "ABA",
+      " C ",
+    ],
+    {
+      A: "minecraft:leather",
+      B: "minecraft:emerald",
+      C: "minecraft:iron_ingot"
+    }
+  )
+  event.shaped(
+    "relics:ice_breaker",
+    [
+      "A A",
+      "B B",
+      "C C",
+    ],
+    {
+      A: "minecraft:iron_ingot",
+      B: "minecraft:leather",
+      C: "minecraft:iron_bars"
+    }
+  )
+  event.shaped(
+    "relics:ice_skates",
+    [
+      "A A",
+      "B B",
+      "C C",
+    ],
+    {
+      A: "minecraft:diamond",
+      B: "minecraft:leather",
+      C: "create:iron_sheet"
+    }
+  )
   });
