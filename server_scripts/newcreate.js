@@ -9,6 +9,7 @@ ServerEvents.recipes((event) => {
     event.recipes.create.splashing(
         [
             "minecraft:lapis_lazuli",
+            Item.of("minecraft:lapis_lazuli").withChance(0.25),
         ],
         "createbb:white_phosphorus", 
     )
@@ -22,5 +23,12 @@ ServerEvents.recipes((event) => {
         {
             id: "create:splashing/red_sand"
         }
+    )
+    event.recipes.create.splashing(
+        [
+            Item.of("thermal:tin_nugget").withChance(0.25),
+            Item.of("minecraft:dead_bush").withChance(0.12),
+        ],
+        "minecraft:red_sand",
     )
 })
