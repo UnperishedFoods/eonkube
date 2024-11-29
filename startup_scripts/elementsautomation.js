@@ -1,3 +1,3 @@
 StartupEvents.registry("item", event => {
-    event.create("")
+    event.create("thorium_grit")
 })
