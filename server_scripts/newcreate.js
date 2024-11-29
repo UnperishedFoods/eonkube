@@ -39,4 +39,10 @@ ServerEvents.recipes((event) => {
         ],
         "minecraft:clay_ball",
     )
+    event.recipes.create.crushing(
+        [
+            Item.of("minecraft:prismarine_crystals").withChance(0.5),
+        ],
+        "minecraft:prismarine_shard",
+    )
 })
