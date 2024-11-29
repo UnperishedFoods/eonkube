@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
     )
     event.recipes.create.splashing(
         [
-            Item.of("minecraft:lapis_lazuli").withChance(0.12),
+            Item.of("minecraft:lapis_lazuli").withChance(0.25),
             Item.of("minecraft:white_dye").withChance(0.12),
         ],
         "createbb:white_phosphorus", 
