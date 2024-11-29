@@ -30,7 +30,7 @@ ServerEvents.recipes((event) => {
         "gas": "kubejs:protactinium_oxide"
       },
       "output": {
-        "amount": 1,
+        "amount": 10,
         "gas": "mekanism:uranium_oxide"
       },
    })
