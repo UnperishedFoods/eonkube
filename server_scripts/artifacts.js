@@ -515,7 +515,7 @@ ServerEvents.recipes((event) => {
         B: "minecraft:pink_dye",
       },
     )
-      event.shaped(
+    event.shaped(
         "relics:amphibian_boot",
         [
           "A A",
