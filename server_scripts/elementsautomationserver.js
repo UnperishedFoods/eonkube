@@ -15,7 +15,7 @@ ServerEvents.recipes((event) => {
         "type": "mekanism:oxidizing",
         "input": {
           "ingredient": {
-            "id": ""
+            "item": "kubejs:protactinium"
           }
         },
         "output": {
@@ -23,15 +23,15 @@ ServerEvents.recipes((event) => {
           "gas": "kubejs:protactinium_oxide"
         }
       })
-      event.custom({        
-        "type": "mekanism:activating",
-        "input": {
-          "amount": 10,
-          "gas": "kubejs:protactinium_oxide"
-        },
-        "output": {
-          "amount": 1,
-          "gas": "mekanism:uranium_oxide"
-        },
-      })
+    event.custom({        
+      "type": "mekanism:activating",
+      "input": {
+        "amount": 10,
+        "gas": "kubejs:protactinium_oxide"
+      },
+      "output": {
+        "amount": 1,
+        "gas": "mekanism:uranium_oxide"
+      },
+   })
 })
