@@ -1,1 +1,1 @@
-Platform.mods.kubejs.name = 'Eclipse'
+Platform.mods.kubejs.name = 'Eon'
