@@ -1,3 +1,4 @@
+
 ServerEvents.recipes((event) => {
     event.shapeless(
         "minecraft:diorite", 
@@ -17,5 +18,10 @@ ServerEvents.recipes((event) => {
             "createbb:white_phosphorus", Item.of("createbb:white_phosphorus").withChance(0.75),
         ],
         "create:limestone",
+    )
+    event.remove(
+        {
+            id: "create:splashing/red_sand",
+        },
     )
 })
