@@ -8,14 +8,15 @@ ServerEvents.recipes((event) => {
     )
     event.recipes.create.splashing(
         [
-            "minecraft:lapis_lazuli",
-            Item.of("minecraft:lapis_lazuli").withChance(0.25),
+            Item.of("minecraft:lapis_lazuli").withChance(0.12),
+            Item.of("minecraft:white_dye").withChance(0.12),
         ],
         "createbb:white_phosphorus", 
     )
     event.recipes.create.milling(
         [
-            "createbb:white_phosphorus", Item.of("createbb:white_phosphorus").withChance(0.75),
+            "createbb:white_phosphorus",
+            Item.of("createbb:white_phosphorus").withChance(0.75),
         ],
         "create:limestone",
     )
