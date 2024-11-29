@@ -10,4 +10,28 @@ ServerEvents.recipes((event) => {
         "kubejs:thorium_ingot",
         "kubejs:thorium_grit"
     )
+    event.custom(
+    {
+        "type": "mekanism:oxidizing",
+        "input": {
+          "ingredient": {
+            "id": ""
+          }
+        },
+        "output": {
+          "amount": 100,
+          "gas": "kubejs:protactinium_oxide"
+        }
+      })
+      event.custom({        
+        "type": "mekanism:activating",
+        "input": {
+          "amount": 10,
+          "gas": "kubejs:protactinium_oxide"
+        },
+        "output": {
+          "amount": 1,
+          "gas": "mekanism:uranium_oxide"
+        },
+      })
 })
