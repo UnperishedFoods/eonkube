@@ -21,7 +21,7 @@ ServerEvents.recipes((event) => {
     )
     event.remove(
         {
-            id: "create:splashing/red_sand",
-        },
+            id: "create:splashing/red_sand"
+        }
     )
 })
