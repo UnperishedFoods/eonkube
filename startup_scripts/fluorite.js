@@ -23,7 +23,4 @@ StartupEvents.registry('fluid', event => {
 })
 
 StartupEvents.registry('item', 
-  e => 
-    {
-  e.create('calcium_chloride')
-})
+  event => {event.create('calcium_chloride')})
