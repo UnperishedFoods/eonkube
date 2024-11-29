@@ -26,14 +26,14 @@ ServerEvents.recipes((event) => {
     )
     event.recipes.create.splashing(
         [
-            Item.of("thermal:tin_nugget").withChance(0.25),
-            Item.of("minecraft:dead_bush").withChance(0.12),
+            Item.of("thermal:tin_nugget").withChance(0.12),
+            Item.of("minecraft:dead_bush").withChance(0.06),
         ],
         "minecraft:red_sand",
     )
     event.recipes.create.splashing(
         [
-            Item.of("create:zinc_nugget").withChance(0.25),
+            Item.of("create:zinc_nugget").withChance(0.12),
             Item.of("minecraft:stick").withChance(0.06),
         ],
         "minecraft:clay_ball",
