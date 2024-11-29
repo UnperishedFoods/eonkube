@@ -22,7 +22,7 @@ ServerEvents.recipes((event) => {
     event.remove(
         {
             id: "create:splashing/red_sand"
-        }
+        },
     )
     event.recipes.create.splashing(
         [
@@ -33,7 +33,9 @@ ServerEvents.recipes((event) => {
     )
     event.recipes.create.splashing(
         [
-            Item.of("create:zinc_nugget").withChance(0.25), Item.of("minecraft:stick").withChance(0.25),
+            Item.of("create:zinc_nugget").withChance(0.25),
+            Item.of("minecraft:stick").withChance(0.06),
         ],
+        "minecraft:clay_ball",
     )
 })
