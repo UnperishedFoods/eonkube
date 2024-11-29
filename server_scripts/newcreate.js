@@ -6,13 +6,13 @@ ServerEvents.recipes((event) => {
             "minecraft:quartz",
         ],
     )
-    event.splashing(
+    event.recipes.create.splashing(
         [
             "minecraft:lapis_lazuli",
         ],
         "createbb:white_phosphorus", 
     )
-    event.milling(
+    event.recipes.create.milling(
         [
             "createbb:white_phosphorus", Item.of("createbb:white_phosphorus").withChance(0.75),
         ],
