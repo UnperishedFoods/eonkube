@@ -22,5 +22,6 @@ StartupEvents.registry('fluid', event => {
   .displayName('Calcium ion solution')
 })
 
-StartupEvents.registry('item', 
-  event => {event.create('calcium_chloride')})
+StartupEvents.registry('item', event => {
+  event.create('calcium_chloride')
+})
