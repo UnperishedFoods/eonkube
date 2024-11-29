@@ -14,8 +14,8 @@ ServerEvents.recipes((event) => {
     )
     event.milling(
         [
-            "createbb:white_phosphorus", Item.of("createbb:white_phosphorus").withChance(0.75)
+            "createbb:white_phosphorus", Item.of("createbb:white_phosphorus").withChance(0.75),
         ],
-        "create:limestone"
+        "create:limestone",
     )
 })
