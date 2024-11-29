@@ -6,4 +6,8 @@ ServerEvents.recipes((event) => {
         ],
         "create_things_and_misc:crushed_magma",
     )
+    event.smelting(
+        "kubejs:thorium_ingot",
+        "kubejs:thorium_grit"
+    )
 })
