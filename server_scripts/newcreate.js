@@ -31,4 +31,9 @@ ServerEvents.recipes((event) => {
         ],
         "minecraft:red_sand",
     )
+    event.recipes.create.splashing(
+        [
+            Item.of("create:zinc_nugget").withChance(0.25), Item.of("minecraft:stick").withChance(0.25),
+        ],
+    )
 })
