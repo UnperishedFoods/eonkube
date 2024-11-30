@@ -70,6 +70,22 @@ ServerEvents.recipes((event) => {
   )
   event.custom(
     {
+      "type": "mekanism:enriching",
+      "input": 
+      {
+        "ingredient": 
+        {
+          "tag": "kubejs:thorium_ingot",
+        },
+      },
+      "output": 
+      {
+        "item": "kubejs:thorium_pellet",
+      },
+    },
+  )
+  event.custom(
+    {
       "type": "mekanism:oxidizing",
       "input": {
         "ingredient": {
