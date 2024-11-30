@@ -13,33 +13,59 @@ ServerEvents.recipes((event) => {
   event.custom(
     {
       "type": "mekanism:oxidizing",
-      "input":
-      {
-        "ingredient":
+      "input": 
         {
-          "item": "kubejs:protactinium",
+          "ingredient": 
+            {
+              "item": "kubejs:protactinium",
+            },
         },
-      },
-        "output":
+      "output": 
         {
           "amount": 100,
           "gas": "kubejs:protactinium_oxide",
         },
-      },
-    )
-    event.custom(
-      {
-        "type": "mekanism:activating",
-        "input":
+    },
+  )
+  event.custom(
+    {
+      "type": "mekanism:activating",
+      "input": 
         {
           "amount": 10,
           "gas": "kubejs:protactinium_oxide",
         },
-        "output":
+        "output": 
           {
             "amount": 10,
             "gas": "mekanism:uranium_oxide",
           },
+    },
+  )
+  event.custom(
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "exothermic": false,
+      "fluid_input": 
+      {
+        "type": "pneumaticcraft:fluid",
+        "amount": 100,
+        "tag": "kubejs:sbf_salt",
       },
-    )
+      "item_input": 
+      {
+        "item": "kubejs:thorium_pellet",
+      },
+      "item_output": 
+      {
+        "item": "kubejs:protactinium",
+      },
+      "pressure": 3.0,
+      "temperature": 
+      {
+        "max_temp": 700,
+        "min_temp": 500,
+      },
+    },
+  )
 })

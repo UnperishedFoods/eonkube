@@ -7,4 +7,12 @@ StartupEvents.registry("item", event => {
     event.create("thorium_grit")
     event.create("thorium_ingot")
     event.create("protactinium")
+    event.create("thorium_pellet")
+})
+StartupEvents.registry('fluid', event => {
+    event.create("sbf_salt")
+      .displayName("Sodium-beryllium fluoride")
+      .stillTexture("kubejs:fluid/sbf_salt_still")
+      .flowingTexture("kubejs:fluid/sbf_salt_flowing")
+      .bucketColor(0xe9f3ff)
 })
