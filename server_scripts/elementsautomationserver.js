@@ -50,7 +50,7 @@ ServerEvents.recipes((event) => {
       {
         "type": "pneumaticcraft:fluid",
         "amount": 100,
-        "fluid": "kubejs:sbf_salt",
+        "tag": "forge:sbf_salt",
       },
       "item_input": 
       {
@@ -264,4 +264,5 @@ ServerEvents.recipes((event) => {
 })
 ServerEvents.tags('fluid', event => {
   event.add('forge:liquid_fluorite', 'kubejs:liquid_fluorite')
+  event.add("forge:sbf_salt", "kubejs:sbf_salt")
 })
