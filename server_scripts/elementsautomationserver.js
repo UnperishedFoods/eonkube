@@ -48,9 +48,9 @@ ServerEvents.recipes((event) => {
       "exothermic": false,
       "fluid_input": 
       {
-        "type": "pneumaticcraft:fluid",
+        "type": "pneumaticcraft:gas",
         "amount": 100,
-        "fluid": "kubejs:sbf_salt",
+        "gas": "kubejs:sbf_salt",
       },
       "item_input": 
       {
