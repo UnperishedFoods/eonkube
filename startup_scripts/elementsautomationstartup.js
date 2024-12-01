@@ -22,7 +22,7 @@ StartupEvents.registry('fluid', event => {
       .thinTexture(0xc9f3ff)
       .bucketColor(0xc9f3ff)
 })
-events.listen('item.registry', event => {
+StartupEvents.listen('item.registry', event => {
   let sbf_salt = event.get('kubejs:sbf_salt');
   sbf_salt.setFluidStack('sbf_salt', 1000, { isGas: true });
 });
