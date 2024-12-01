@@ -21,6 +21,10 @@ StartupEvents.registry('fluid', event => {
       .displayName("Liquid Fluorite")
       .thinTexture(0xc9f3ff)
       .bucketColor(0xc9f3ff)
+    event.create("sbf_salt")
+      .displayName("Sodium-Beryllium Fluoride")
+      .thinTexture(0xb8cecd)
+      .bucketColor(0xb8cecd)
 })
 StartupEvents.listen('item.registry', event => {
   let sbf_salt = event.get('kubejs:sbf_salt');
