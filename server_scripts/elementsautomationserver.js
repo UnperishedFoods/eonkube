@@ -170,7 +170,7 @@ ServerEvents.recipes((event) => {
       "output": 
       {
         "amount": 2,
-        "gas": ""
+        "gas": "kubejs:sodium_fluoride"
       },
       "rightInput": 
       {
