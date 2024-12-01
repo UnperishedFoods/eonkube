@@ -252,7 +252,7 @@ ServerEvents.recipes((event) => {
       "output": 
       {
         "amount": 2,
-        "fluid": "kubejs:sbf_salt"
+        "gas": "kubejs:sbf_salt"
       },
       "rightInput": 
       {
