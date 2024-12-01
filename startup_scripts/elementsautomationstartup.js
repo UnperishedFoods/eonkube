@@ -7,7 +7,6 @@ StartupEvents.registry('mekanism:gas', event => {
     event.createCustom('kubejs:calcium_ion_gas', () => new $Gas($GasBuilder.builder().tint(0xfff9f2)))
     event.createCustom('kubejs:sodium_fluoride', () => new $Gas($GasBuilder.builder().tint(0xffffff)))
     event.createCustom('kubejs:beryllium_fluoride', () => new $Gas($GasBuilder.builder().tint(0x737373)))
-    event.createCustom('kubejs:sbf_salt', () => new $Gas($GasBuilder.builder().tint(0xabc9c3)))
 })
 StartupEvents.registry("item", event => {
   event.create("thorium_grit")
@@ -23,3 +22,7 @@ StartupEvents.registry('fluid', event => {
       .thinTexture(0xc9f3ff)
       .bucketColor(0xc9f3ff)
 })
+events.listen('item.registry', event => {
+  let sbf_salt = event.get('kubejs:sbf_salt');
+  sbf_salt.setFluidStack('sbf_salt', 1000, { isGas: true });
+});
