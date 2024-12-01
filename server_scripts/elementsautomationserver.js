@@ -165,7 +165,7 @@ ServerEvents.recipes((event) => {
       "input": 
       {
         "amount": 3,
-        "tag": "kubejs:liquid_fluorite",
+        "tag": "forge:liquid_fluorite",
       },
       "leftGasOutput": 
       {
@@ -198,6 +198,27 @@ ServerEvents.recipes((event) => {
         "gas": "kubejs:fluorine",
       },
     },
+  )
+  event.custom(
+    {
+      "type": "mekanism:rotary",
+      "fluidInput": {
+        "amount": 1,
+        "fluid": "kubejs:liquid_fluorite"
+      },
+      "fluidOutput": {
+        "amount": 1,
+        "fluid": "kubejs:liquid_fluorite"
+      },
+      "gasInput": {
+        "amount": 1,
+        "gas": "kubejs:fluorite_gas"
+      },
+      "gasOutput": {
+        "amount": 1,
+        "gas": "kubejs:fluorite_gas"
+      }
+    }
   )
 })
 ServerEvents.tags('liquid', event => {
