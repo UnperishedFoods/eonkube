@@ -179,17 +179,17 @@ ServerEvents.recipes((event) => {
       "leftInput": 
       {
         "amount": 1,
-        "gas": "",
+        "gas": "mekanism:sodium",
       },
       "output": 
       {
-        "amount": 1,
+        "amount": 2,
         "gas": ""
       },
       "rightInput": 
       {
         "amount": 1,
-        "gas": "",
+        "gas": "kubejs:fluorine",
       },
     },
   )
