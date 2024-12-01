@@ -19,3 +19,6 @@ StartupEvents.registry('fluid', event => {
       .flowingTexture("kubejs:fluid/sbf_salt_flowing")
       .bucketColor(0xe9f3ff)
 })
+ServerEvents.tags('liquid', event => {
+    event.add('forge:liquid_fluorite', 'kubejs:liquid_fluorite')
+})
