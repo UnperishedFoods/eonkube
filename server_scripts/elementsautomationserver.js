@@ -50,7 +50,7 @@ ServerEvents.recipes((event) => {
       {
         "type": "pneumaticcraft:fluid",
         "amount": 100,
-        "tag": "forge:sodium-beryllium_fluoride",
+        "tag": "forge:Sodium-Beryllium_Fluoride",
       },
       "item_input": 
       {
@@ -252,7 +252,7 @@ ServerEvents.recipes((event) => {
       "output": 
       {
         "amount": 2,
-        "gas": "kubejs:sbf_salt"
+        "gas": "kubejs:Sodium-Beryllium_Fluoride"
       },
       "rightInput": 
       {
@@ -264,5 +264,5 @@ ServerEvents.recipes((event) => {
 })
 ServerEvents.tags('fluid', event => {
   event.add('forge:liquid_fluorite', 'kubejs:liquid_fluorite')
-  event.add("forge:sodium-beryllium_fluoride", "kubejs:sodium-beryllium_fluoride")
+  event.add("forge:Sodium-Beryllium_Fluoride", "kubejs:Sodium-Beryllium_Fluoride")
 })
