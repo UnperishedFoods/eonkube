@@ -217,6 +217,50 @@ ServerEvents.recipes((event) => {
         id: "create:milling/granite",
     },
   )
+  event.custom(
+    {
+      "type": "mekanism:dissolution",
+      "gasInput": 
+      {
+        "amount": 2,
+        "gas": "kubejs:fluorine",
+      },
+      "itemInput": 
+      {
+        "amount": 1,
+        "ingredient": 
+        {
+          "item": "kubejs:beryllium",
+        },
+      },
+      "output": 
+      {
+        "amount": 300,
+        "chemicalType": "gas",
+        "gas": "kubejs:beryllium_fluoride",
+      },
+    },
+  )
+  event.custom(
+    {
+      "type": "mekanism:chemical_infusing",
+      "leftInput": 
+      {
+        "amount": 1,
+        "gas": "kubejs:sodium_fluoride",
+      },
+      "output": 
+      {
+        "amount": 2,
+        "gas": "kubejs:sbf_salt"
+      },
+      "rightInput": 
+      {
+        "amount": 1,
+        "gas": "kubejs:beryllium_fluoride",
+      },
+    },
+  )
 })
 ServerEvents.tags('fluid', event => {
   event.add('forge:liquid_fluorite', 'kubejs:liquid_fluorite')
