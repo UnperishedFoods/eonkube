@@ -5,6 +5,7 @@ StartupEvents.registry('mekanism:gas', event => {
     event.createCustom('kubejs:fluorite_gas', () => new $Gas($GasBuilder.builder().tint(0xc9f3ff)))
     event.createCustom('kubejs:fluorine', () => new $Gas($GasBuilder.builder().tint(0xc3fad2)))
     event.createCustom('kubejs:calcium_ion_gas', () => new $Gas($GasBuilder.builder().tint(0xfff9f2)))
+    event.createCustom('kubejs:sodium_fluoride', () => new $Gas($GasBuilder.builder().tint(0xffffff)))
 })
 StartupEvents.registry("item", event => {
     event.create("thorium_grit")
