@@ -164,7 +164,7 @@ ServerEvents.recipes((event) => {
       "leftGasOutput": 
       {
         "amount": 1,
-        "gas": "kubejs:calcium_ion_solution",
+        "gas": "kubejs:calcium_ion_gas",
       },
       "rightGasOutput": 
       {
