@@ -221,6 +221,6 @@ ServerEvents.recipes((event) => {
     }
   )
 })
-ServerEvents.tags('liquid', event => {
+ServerEvents.tags('fluid', event => {
   event.add('forge:liquid_fluorite', 'kubejs:liquid_fluorite')
 })
