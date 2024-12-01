@@ -63,8 +63,8 @@ ServerEvents.recipes((event) => {
       "pressure": 3.0,
       "temperature": 
       {
-        "max_temp": 700,
-        "min_temp": 500,
+        "max_temp": 973,
+        "min_temp": 773,
       },
     },
   )
