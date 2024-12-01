@@ -136,4 +136,41 @@ ServerEvents.recipes((event) => {
       }
     }
   )
+  event.custom(
+    {
+      "type": "mekanism:oxidizing",
+      "input": 
+      {
+        "ingredient": 
+        {
+          "tag": "mekanism:fluorite_gem",
+        },
+      },
+      "output": 
+      {
+        "amount": 100,
+        "gas": "kubejs:liquid_fluorite",
+      },
+    }
+  )
+  event.custom(
+    {
+      "type": "mekanism:separating",
+      "input": 
+      {
+        "amount": 10,
+        "tag": "kubejs:liquid_fluorite",
+      },
+      "leftGasOutput": 
+      {
+        "amount": 1,
+        "gas": "kubejs:calcium_ion_solution",
+      },
+      "rightGasOutput": 
+      {
+        "amount": 1,
+        "gas": "kubejs:fluorine",
+      },
+    },
+  )
 })
