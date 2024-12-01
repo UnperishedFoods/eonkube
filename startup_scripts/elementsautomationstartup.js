@@ -8,10 +8,12 @@ StartupEvents.registry('mekanism:gas', event => {
     event.createCustom('kubejs:sodium_fluoride', () => new $Gas($GasBuilder.builder().tint(0xffffff)))
 })
 StartupEvents.registry("item", event => {
-    event.create("thorium_grit")
-    event.create("thorium_ingot")
-    event.create("protactinium")
-    event.create("thorium_pellet")
+  event.create("thorium_grit")
+  event.create("thorium_ingot")
+  event.create("protactinium")
+  event.create("thorium_pellet")
+  event.create("beryllium")
+  event.create("crushed_granite")
 })
 StartupEvents.registry('fluid', event => {
     event.create("sbf_salt")

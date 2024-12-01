@@ -200,6 +200,23 @@ ServerEvents.recipes((event) => {
       }
     }
   )
+  event.recipes.create.milling(
+    [
+      "kubejs:crushed_granite",
+    ],
+    "minecraft:granite",
+  )
+  event.recipes.create.milling(
+    [
+      "minecraft:red_sand",
+    ],
+    "kubejs:crushed_granite",
+  )
+  event.remove(
+    {
+        id: "create:milling/granite",
+    },
+  )
 })
 ServerEvents.tags('fluid', event => {
   event.add('forge:liquid_fluorite', 'kubejs:liquid_fluorite')
