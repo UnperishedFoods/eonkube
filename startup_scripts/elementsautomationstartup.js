@@ -22,4 +22,8 @@ StartupEvents.registry('fluid', event => {
       .displayName("Liquid Fluorite")
       .thinTexture(0xc9f3ff)
       .bucketColor(0xc9f3ff)
+    event.create("molten_sbf")
+      .displayName("Molten SBF")
+      .thickTexture(0xb8cecd)
+      .bucketColor(0xb8cecd)
 })

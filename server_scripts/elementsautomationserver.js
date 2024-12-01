@@ -261,6 +261,27 @@ ServerEvents.recipes((event) => {
       },
     },
   )
+  event.custom(
+    {
+      "type": "mekanism:rotary",
+      "fluidInput": {
+        "amount": 1,
+        "fluid": "kubejs:molten_sbf"
+      },
+      "fluidOutput": {
+        "amount": 1,
+        "fluid": "kubejs:molten_sbf"
+      },
+      "gasInput": {
+        "amount": 1,
+        "gas": "kubejs:Sodium-Beryllium_Fluoride"
+      },
+      "gasOutput": {
+        "amount": 1,
+        "gas": "kubejs:Sodium-Beryllium_Fluoride"
+      }
+    }
+  )
 })
 ServerEvents.tags('fluid', event => {
   event.add('forge:liquid_fluorite', 'kubejs:liquid_fluorite')
