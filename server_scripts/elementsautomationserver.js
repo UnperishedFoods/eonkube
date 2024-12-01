@@ -50,7 +50,7 @@ ServerEvents.recipes((event) => {
       {
         "type": "pneumaticcraft:fluid",
         "amount": 100,
-        "fluid": "kubejs:molten_sbf",
+        "fluid": "kubejs:reactor_salt",
       },
       "item_input": 
       {
@@ -266,11 +266,11 @@ ServerEvents.recipes((event) => {
       "type": "mekanism:rotary",
       "fluidInput": {
         "amount": 1,
-        "fluid": "kubejs:molten_sbf"
+        "fluid": "kubejs:reactor_salt"
       },
       "fluidOutput": {
         "amount": 1,
-        "fluid": "kubejs:molten_sbf"
+        "fluid": "kubejs:reactor_salt"
       },
       "gasInput": {
         "amount": 1,
