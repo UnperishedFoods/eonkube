@@ -103,26 +103,6 @@ ServerEvents.recipes((event) => {
   )
   event.custom(
     {
-      "type": "mekanism:separating",
-      "input": 
-      {
-        "amount": 10,
-        "tag": "forge:liquid_fluorite",
-      },
-      "leftGasOutput": 
-      {
-        "amount": 5,
-        "gas": "kubejs:calcium_ion_gas",
-      },
-      "rightGasOutput": 
-      {
-        "amount": 5,
-        "gas": "kubejs:fluorine",
-      },
-    },
-  )
-  event.custom(
-    {
       "type": "mekanism:rotary",
       "fluidInput": {
         "amount": 1,
