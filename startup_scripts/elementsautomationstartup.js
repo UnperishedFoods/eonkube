@@ -13,7 +13,7 @@ StartupEvents.registry("item", event => {
 })
 StartupEvents.registry('fluid', event => {
     event.create("sbf_salt")
-      .displayName("Sodium-beryllium fluoride")
+      .displayName("Sodium-Beryllium Fluoride")
       .stillTexture("kubejs:fluid/sbf_salt_still")
       .flowingTexture("kubejs:fluid/sbf_salt_flowing")
       .bucketColor(0xe9f3ff)
