@@ -6,4 +6,5 @@ ServerEvents.recipes((event) => {
         ],
         "minecraft:smooth_basalt"
     )
+    event.recipes.create.mixing("minecraft:basalt", [Fluid.lava(50), "minecraft:basalt", "minecraft:blue_ice"])
 })
