@@ -106,12 +106,33 @@ ServerEvents.recipes((event) => {
         "gas": "kubejs:liquid_fluorite"
       },
       "leftGasOutput": {
+        "amount": 5,
+        "gas": "kubejs:calcium_ion_gas"
+      },
+      "rightGasOutput": {
+        "amount": 5,
+        "gas": "kubejs:fluorine"
+      }
+    }
+  )
+  event.custom(
+    {
+      "type": "mekanism:rotary",
+      "fluidInput": {
         "amount": 1,
         "fluid": "kubejs:calcium_ion_solution"
       },
-      "rightGasOutput": {
+      "fluidOutput": {
         "amount": 1,
-        "gas": "kubejs:fluorine"
+        "fluid": "kubejs:calcium_ion_solution"
+      },
+      "gasInput": {
+        "amount": 1,
+        "gas": "kubejs:calcium_ion_gas"
+      },
+      "gasOutput": {
+        "amount": 1,
+        "gas": "kubejs:calcium_ion_gas"
       }
     }
   )
