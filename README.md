@@ -1,4 +1,4 @@
 # eonkube
-KubeJS for the Eon project 
-:)
- by the homies for the homies
+le kubejs by unperishedfoods, professorlouie2, and boxpatata
+
+by les homies for les homies
