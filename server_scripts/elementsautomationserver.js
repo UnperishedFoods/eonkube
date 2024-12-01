@@ -50,7 +50,7 @@ ServerEvents.recipes((event) => {
       {
         "type": "pneumaticcraft:fluid",
         "amount": 100,
-        "tag": "forge:Sodium-Beryllium_Fluoride",
+        "fluid": "kubejs:molten_sbf",
       },
       "item_input": 
       {
