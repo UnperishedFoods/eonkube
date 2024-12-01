@@ -50,7 +50,7 @@ ServerEvents.recipes((event) => {
       {
         "type": "pneumaticcraft:fluid",
         "amount": 100,
-        "tag": "kubejs:sbf_salt",
+        "fluid": "kubejs:sbf_salt",
       },
       "item_input": 
       {
@@ -103,7 +103,7 @@ ServerEvents.recipes((event) => {
       "type": "mekanism:separating",
       "input": {
         "amount": 10,
-        "gas": "kubejs:liquid_fluorite"
+        "tag": "forge:liquid_fluorite"
       },
       "leftGasOutput": {
         "amount": 5,
@@ -193,4 +193,7 @@ ServerEvents.recipes((event) => {
       },
     },
   )
+})
+ServerEvents.tags('liquid', event => {
+  event.add('forge:liquid_fluorite', 'kubejs:liquid_fluorite')
 })
