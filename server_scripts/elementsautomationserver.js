@@ -97,7 +97,7 @@ ServerEvents.recipes((event) => {
       "output": 
       {
         "amount": 100,
-        "gas": "kubejs:liquid_fluorite",
+        "gas": "kubejs:fluorite_gas",
       },
     },
   )
