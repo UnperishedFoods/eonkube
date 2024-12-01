@@ -75,7 +75,7 @@ ServerEvents.recipes((event) => {
       {
         "ingredient": 
         {
-          "tag": "kubejs:thorium_ingot",
+          "item": "kubejs:thorium_ingot",
         },
       },
       "output": 
